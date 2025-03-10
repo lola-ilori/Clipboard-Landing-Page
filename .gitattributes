@@ -1,0 +1,2 @@
+*.largefile-extension filter=lfs diff=lfs merge=lfs -text
+images/Clipboard-landing-page_screenshot.png filter=lfs diff=lfs merge=lfs -text
