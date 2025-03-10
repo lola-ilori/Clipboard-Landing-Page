@@ -54,7 +54,7 @@ Contributions are welcome! Follow these steps:
 
 
 ## 📞 Contact  
-- **Your Name**  
+- **Lola I.**  
 - [LinkedIn](https://linkedin.com/in/yourprofile)  
 - [Twitter](https://twitter.com/Code_Nerdette)  
 
