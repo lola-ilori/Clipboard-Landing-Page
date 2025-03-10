@@ -3,7 +3,8 @@
 A responsive and minimalist landing page for a clipboard application, built with HTML and CSS only. This project focuses on clean UI design and accessibility without JavaScript.
 
 ## 🚀 Live Demo
-[Click here to view the live project](https://clipboard-landing-page-nine-gules.vercel.app/) 
+## 🚀 Live Demo  
+<a href="https://clipboard-landing-page-nine-gules.vercel.app/" target="_blank" rel="noopener noreferrer">Click here to view the live project</a>
 
 ## 📸 Screenshot
 ![Project Screenshot](./images/%20Clipboard-landing-page_screenshot.png)  
