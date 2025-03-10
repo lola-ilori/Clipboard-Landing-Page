@@ -1,0 +1,62 @@
+# 📋 Clipboard Landing Page
+
+A responsive and minimalist landing page for a clipboard application, built with HTML and CSS only. This project focuses on clean UI design and accessibility without JavaScript.
+
+## 🚀 Live Demo
+[Click here to view the live project](#) 
+
+## 📸 Screenshot
+![Project Screenshot](./images/%20Clipboard-landing-page_screenshot.png)  
+
+
+---
+
+## 📖 Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## 📜 About the Project
+A responsive and minimalist landing page for a clipboard application, built with HTML and CSS only. This project focuses on clean UI design and accessibility without JavaScript.
+
+## 🎯 Features
+- Fully responsive layout
+- Modern and accessible design
+- Optimized for all screen sizes
+- Mobile-first approach
+
+---
+
+## 🏗 Built With
+HTML5
+CSS3
+
+
+## 👥 Contributing
+Contributions are welcome! Follow these steps:  
+
+1. **Fork** the repository  
+2. **Create a new branch**  
+   ```sh
+   git checkout -b feature-branch
+3. **Commit your changes**
+   git commit -m "Added new feature"
+4. **Push to Github**
+   git push origin feature-branch
+5. **Open a Pull Request**
+
+
+## 📞 Contact  
+- **Your Name**  
+- [LinkedIn](https://linkedin.com/in/yourprofile)  
+- [Twitter](https://twitter.com/Code_Nerdette)  
+
+📂 **Project Link:** [GitHub Repository](https://github.com/lola-ilori/Clipboard-Landing-Page.git)  
+ 

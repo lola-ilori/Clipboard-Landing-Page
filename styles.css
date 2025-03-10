@@ -1,0 +1,409 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+img {
+   max-width: 100%;
+}
+
+h1, h2, h3, h4, p{
+   margin: 0;
+   padding: 0;
+   color:#4c545d;
+}
+
+p {
+   line-height: 1.5;
+   font-weight: 400;
+}
+
+body {
+   min-height: 100vh;
+   font-family: "Bai Jamjuree", sans-serif;
+   color: #b5bdc7;
+   font-size: 1rem;
+   margin: 0;
+   text-align: center;
+}
+
+header {
+   background-image: url('images/bg-header-mobile.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 7em 0 2.5em 0em;
+}
+
+.header-img {
+   width: 140px;
+}
+
+.container {
+   width: 85%;
+   margin: 0 auto;
+   max-width: 1500px;
+}
+
+.section_group h1,h2,h3,h4 {
+   font-size: 2rem;
+   line-height: 1.2;
+   font-weight: 600;
+   margin-bottom: 0.5em;
+}
+
+.section_group h2 {
+   font-size: 1.7rem;
+}
+
+.section_group h3 {
+   font-size: 1.5rem;
+}
+.section_group h4 {
+   font-size: 1.45rem;
+}
+
+/* removing section_group & snippets from display:flex cos it doesnt really matter */
+ .flex{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.history_text,
+.os_text,
+.access_text,
+.snippet_text  {
+   margin-bottom: 2.8em;
+}
+
+.btn {
+   display: block;
+   width: auto;
+   max-width: 300px;
+   margin: 0 auto;
+   text-decoration: none;
+   color: #f7f7f7;
+   font-family: "Bai Jamjuree", sans-serif;
+   font-size: 1.1rem;
+   font-weight: 500;
+   letter-spacing: 0.4px;
+   border-radius: 50px;
+   padding: 0.8em 4em;
+   cursor: pointer;
+}
+
+.ios {
+   background-color: #4db6ac;
+   box-shadow: 1px 5px 18px rgba(24, 181, 167, 0.3), 
+   1px 4px 2px rgb(1, 141, 134);
+}
+
+.mac {
+   background-color: #ffb433;
+   box-shadow: 1px 5px 15px rgba(255, 180, 51, 0.3), 
+   1px 4px 2px rgb(212, 137, 6)
+}
+
+.btn + .btn {
+   margin-top: 1.5em;
+}
+
+.btn:focus {
+   outline: 2px solid #333;
+}
+
+.history,
+.snippets,
+.os {
+   margin-bottom: clamp(3rem, 5vw, 9em);
+}
+
+.snippet-img-flex {
+   margin-bottom: 3em;
+}
+
+.snippet_group + .snippet_group,
+.usecase_scroll + .usecase_scroll {
+   margin-top: 3em;
+}
+
+.snippet-img,
+.access-img {
+   margin: 1em 0;
+}
+
+.access,
+.supercharge,
+.usecase,
+.clients {
+   margin-bottom: 5.5em;
+}
+
+.usecase_scroll img {
+   margin-bottom: 2.5em;
+}
+
+.clients img {
+   width: 130px;
+   height: 80px;
+   object-fit: cover;
+   margin-bottom: 1.5em;
+}
+
+footer {
+   background-color: #f4f8fb;
+   padding: 3em 0;
+}
+
+.footer-img {
+   width: 60px;
+   margin-bottom: 1.5em;
+}
+
+.footer_list_group {
+   list-style: none;
+   padding: 0;
+   margin-bottom: 2.8em;
+}
+
+.footer_list {
+   margin-bottom: 1.8em;
+}
+
+.footer_list a{
+   text-decoration: none;
+   color:#838990;
+   font-weight: 500;
+   font-size: 1em;
+   cursor: pointer;
+   transition: color 0.2s ease;
+}
+
+.footer_list a:hover {
+   color: #4db6ac;
+}
+
+
+.footer_socials-img{
+   width: 35px;
+}
+
+.x-icon {
+   width: 20px;
+}
+
+.row-flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer_socials-img + .footer_socials-img {
+   margin-left: 1em;
+}
+@media(min-width:750px){
+   body{
+      font-size: 1.05rem;
+   }
+
+   .section_group h1 {
+      font-size: 2.6rem;
+   }
+   .section_group h2 {
+      font-size: 2rem;
+   }
+   
+   .section_group h3 {
+      font-size: 1.4rem;
+   }
+   .section_group h4 {
+      font-size: 1.3rem;
+   }
+}
+
+@media(min-width:1100px){
+   header {
+      background-image: url('images/bg-header-desktop.png');
+}
+
+body {
+   font-size: 1.1rem;
+}
+
+.flex{
+   display: block;
+}
+
+.container {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.history, 
+.snippet_text, 
+.access_text,
+.os{
+   width: 50%;
+   margin: 0 auto;
+   margin-bottom: 4.5em;
+}
+
+.usecase, 
+.clients
+ {
+   width: 80%;
+   margin: 0 auto;
+   margin-bottom: 5.5em;
+}
+
+.section_group h1 {
+   font-size: 2.8rem;
+}
+
+.section_group h2 {
+   font-size: 2.2rem;
+   margin-bottom: 0.6em;
+}
+
+.section_group h3 {
+   font-size: 1.5rem;
+}
+.section_group h4 {
+   font-size: 1.4rem;
+   margin-bottom: 1em;
+}
+
+.small_p {
+   font-size: 1rem;
+   line-height: 1.8;
+}
+
+.big_p {
+   font-size: 1.25rem;
+}
+
+.section_btn, 
+.desktop-flex {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.desktop-column_flex {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.btn.mac {
+   margin: 0
+}
+
+.btn {
+   padding: 1em 2.3em;
+   font-size: 1.1rem;
+}
+
+.btn + .btn {
+   margin-left: 1em;
+}
+
+.snippet-img{
+   margin: 0;
+   position: relative;
+   left: -1.5em;
+   width: auto;
+}
+
+.grid-text {
+   margin-left: 4em;
+   flex: 1;
+}
+
+.snippet_grid-text{
+   text-align: left;
+   width: 60%;
+}
+
+.access-img {
+   margin: 0;
+}
+.usecase_scroll + .usecase_scroll {
+   margin: 0;
+   margin-left: 2em;
+   margin-bottom: 1em;
+}
+
+.usecase_scroll {
+   text-align: center;
+   flex: 1;
+   max-width: 350px;
+}
+
+.supercharge,
+.access {
+   margin-bottom: 4em;
+}
+
+.snippets{
+   margin-bottom: clamp(3rem, 5vw, 8em);
+}
+
+.usecase, 
+.clients,
+.history,
+.os,
+.snippets {
+   margin-bottom: clamp(3rem, 5vw, 8em)
+}
+
+.clients img {
+   width: 150px;
+}
+
+.footer_container{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.footer_img-list {
+   flex-grow: 1;
+   max-width: 62%;
+   
+}
+
+footer {
+   padding: 2em 0;
+}
+
+.desktop-grid {
+   display: grid;
+   grid-gap:  0 4.5em;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   justify-content: center;
+   text-align: left;
+}
+
+.footer_list:nth-child(2) {
+   grid-column: 1;
+   grid-row: 2;
+}
+
+.footer_list:nth-child(4) {
+   grid-column: 2;
+   grid-row: 2;
+}
+
+.footer_list {
+   margin-bottom: 1.1em;
+}
+
+.footer_list_group{
+   margin: 0;
+}
+}
